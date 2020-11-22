@@ -8,6 +8,8 @@ if (environment.production) {
   enableProdMode();
 }
 
+console.log('modifid by xiaokk2 branch');
+
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
   .catch((err) => console.error(err));
