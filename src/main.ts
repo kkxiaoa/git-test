@@ -7,6 +7,9 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
+console.log('modified by xiaokk3');
+
+console.log('modifid by xiaokk2 branch');
 
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
