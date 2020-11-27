@@ -22,6 +22,9 @@ function promiseChain(arr, input) {
   );
 }
 
+console.log(12313);
+console.log(111111);
+console.log(2222);
 function Pipe(...fns) {
   return (input) => fns.reduce((prev, next) => next(prev), input);
 }
