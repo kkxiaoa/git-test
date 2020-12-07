@@ -14,3 +14,17 @@ console.log('modifid by xiaokk2 branch');
 platformBrowserDynamic()
   .bootstrapModule(AppModule)
   .catch((err) => console.error(err));
+
+function promiseChain(arr, input) {
+  return arr.reduce(
+    (promiseFn, cb) => promiseFn.then(cb),
+    Promise.resolve(input)
+  );
+}
+
+console.log(12313);
+console.log(111111);
+console.log(2222);
+function Pipe(...fns) {
+  return (input) => fns.reduce((prev, next) => next(prev), input);
+}

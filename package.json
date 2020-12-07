@@ -20,8 +20,10 @@
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
     "angular-in-memory-web-api": "^0.11.0",
+    "dynamic-url": "^0.0.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "vue": "3.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
