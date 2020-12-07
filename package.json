@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4299",
+    "testPromise": "promises-aplus-tests",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -21,6 +22,7 @@
     "@angular/router": "~10.2.0",
     "angular-in-memory-web-api": "^0.11.0",
     "dynamic-url": "^0.0.7",
+    "promises-aplus-tests": "^2.1.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "vue": "3.0",
