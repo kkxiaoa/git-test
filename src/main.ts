@@ -21,7 +21,3 @@ function promiseChain(arr, input) {
     Promise.resolve(input)
   );
 }
-
-function Pipe(...fns) {
-  return (input) => fns.reduce((prev, next) => next(prev), input);
-}
