@@ -6,6 +6,8 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
+
+  console.log(121);
 }
 console.log('modified by xiaokk3');
 
